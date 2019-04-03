@@ -1,0 +1,22 @@
+.box{
+    width: 180px;
+    height: 88px;
+    border-radius: 4px;
+    padding: 10px 10px;
+    .data{
+        font-size: 28px;
+        color: #fff;
+        &::before{
+            content:"";
+            display: inline-block;
+            width: 2px;
+            height: 20px;
+            background: #fff;
+            margin-right: 6px;
+        }
+    }
+    .name{
+        font-size: 16px;
+        color: #fff;
+    }
+}

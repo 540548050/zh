@@ -1,0 +1,27 @@
+.headerContainer{
+    position: fixed;
+    top:0;
+    left:256px;
+    width: calc(100% - 256px);
+    height: 49px;
+    // border-bottom: 1px solid #E8E8E8; 
+    background: #fff;
+    color: #000;
+    z-index:999;
+    line-height: 49px;
+    .left{
+        float: left;
+        font-size: 18px;
+        font-weight: 700;
+        margin-left: 20px;
+    }
+    .right{
+        float: right;
+        ul{
+            li{
+                float: left;
+                padding: 0 10px;
+            }
+        }
+    }
+}
